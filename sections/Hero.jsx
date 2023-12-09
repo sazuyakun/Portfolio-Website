@@ -31,11 +31,19 @@ const Hero = () => (
           className = "relative w-full md:-mt-[100px] -mt-[50px]"
         >
         <div className = "absolute w-full h-[300px] hero-gradient rounded-tl-[140px] rounded-bl-[140px]  z-[0] -top-[10px]" />
+       <div className='flex gap-5'>
+       <img
+          src='/cover.png' 
+          alt='cover'
+          className=' w-[50%] sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] rounded-bl-[140px] z-10 relative '
+        />
         <img
           src='/cover.png' 
           alt='cover'
-          className=' w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] rounded-bl-[140px] z-10 relative '
+          className=' w-[50%] sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] rounded-bl-[140px] z-10 relative '
         />
+
+       </div>
         <a href='#explore'>
           <div className=' w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10'>
             <img 
