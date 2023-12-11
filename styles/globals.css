@@ -11,7 +11,7 @@
 }
 
 .gradient-01 {
-  opacity: 50%;
+  opacity: 25%;
   background-image: linear-gradient(
     180deg,
     hsl(0, 76%, 51%) 0%,
@@ -22,7 +22,7 @@
     hsl(35, 73%, 70%) 74%,
     hsl(45, 76%, 51%) 100%
   );
-  filter: blur(150px);
+  filter: blur(125px);
 }
 
 .hero-gradient {
@@ -40,7 +40,7 @@
   height: 438px;
   top: 0px;
   left: 0px;
-  opacity: 50%;
+  opacity: 70%;
 
   background: #fba37a;
   filter: blur(190px);

@@ -21,16 +21,9 @@ const About = () => (
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className=" font-extrabold text-white">Metaverse </span>
-        became a household word when Facebook rebranded its
-        corporate identity to Meta in October 2021 and announced plans to invest
-        at least $10 billion in the concept that year. In addition to Meta, tech
-        giants including Google, Microsoft, Nvidia and Qualcomm are also
-        investing billions of dollars in the concept. Management consultancy
-        McKinsey & Company has bullishly predicted that the metaverse economy
-        could reach $5 trillion by 2030. E-commerce is expected to be the
-        dominant engine, with gaming, entertainment, education and marketing in
-        the metaverse also becoming important sectors.
+        Hello there, I am 
+        <span className=" font-extrabold text-white"> Soham</span>
+        , a sophomore pursuing B.Tech in Computer Science Engineering in NIT Rourkela. I am an enthusiast with a motive to learn something new every day in the domain of technology. I like to do Web Development. 
       </motion.p>
 
       <motion.img 

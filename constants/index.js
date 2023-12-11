@@ -53,13 +53,19 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    title: 'Project - 1',
     link: 'https://mail.google.com/mail/u/0/#inbox'
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'The Hogwarts',
+    title: 'Project - 2',
+    link: 'https://mail.google.com/mail/u/0/#inbox'
+  },
+  {
+    id: 'world-3',
+    imgUrl: '/planet-03.png',
+    title: 'Project - 3',
     link: 'https://mail.google.com/mail/u/0/#inbox'
   },
   
