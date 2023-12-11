@@ -7,7 +7,7 @@ import { TitleText, TypingText } from '../components';
 import {techStack} from '../constants'
 
 const Skills = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section id="skills"className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"

@@ -1,7 +1,7 @@
 'use client';
 
 import {motion} from 'framer-motion'
-import {socials} from '../utils/motion'
+import {socials} from '../constants'
 import styles from '../styles'
 import { footerVariants } from '../utils/motion';
 
@@ -28,8 +28,21 @@ const Footer = () => (
           <h4 className='font-extrabold text-[24px]'><span className="text-orange-600">SO</span>
         <span className=' text-white'>HAM</span></h4>
           <p className=' font-normal text-[14px] text-white opacity-50'>
-          Copyright © {year} - {year+1}. All rights reserved
+          Copyright © {year-1} - {year}. All rights reserved
           </p>
+          <div className='flex gap-4 '>
+            {socials.map((social) => (
+              <a href={social.link} target="_blank">
+              <img 
+                key={social.name}
+                src={social.url}
+                alt={social.name}
+                className='w-[24px] h-[24px] object-contain'
+              />
+              </a>
+            ))}
+
+          </div>
         </div>
       </div>
     </div>
