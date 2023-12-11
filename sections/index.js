@@ -4,7 +4,7 @@ import Explore from './Explore';
 import GetStarted from './GetStarted';
 import WhatsNew from './WhatsNew';
 import World from './World';
-import Insights from './Insights';
+import Skills from './Skills';
 import Feedback from './Feedback';
 
 export {
@@ -14,6 +14,6 @@ export {
   GetStarted,
   WhatsNew,
   World,
-  Insights,
+  Skills,
   Feedback,
 };
