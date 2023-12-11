@@ -1,3 +1,12 @@
+export const techStack = [
+  {
+    id: 'tech-1',
+    imgUrl: '/planet-01.png',
+    title: 'The Hogwarts',
+    link: 'https://mail.google.com/mail/u/0/#inbox'
+  },
+];
+
 export const exploreWorlds = [
   {
     id: 'world-1',
