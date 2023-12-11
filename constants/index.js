@@ -1,9 +1,51 @@
-export const techStack = [
+export const Languages = [
   {
-    id: 'tech-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
-    link: 'https://mail.google.com/mail/u/0/#inbox'
+    id: 'Lang-1',
+    imgUrl: '/C++Logo.webp',
+    title: 'C++',
+  },
+  {
+    id: 'Lang-2',
+    imgUrl: '/JS.png',
+    title: 'JS',
+  },
+  {
+    id: 'Lang-3',
+    imgUrl: '/python.jpg',
+    title: 'python',
+  },
+  {
+    id: 'Lang-4',
+    imgUrl: '/Git.png',
+    title: 'Git',
+  },
+];
+
+export const WebDev = [
+  {
+    id: 'Front-1',
+    imgUrl: '/html.png',
+    title: 'html',
+  },
+  {
+    id: 'Front-2',
+    imgUrl: '/css.png',
+    title: 'css',
+  },
+  {
+    id: 'Front-3',
+    imgUrl: '/Tailwind.jpeg',
+    title: 'Tailwind',
+  },
+  {
+    id: 'Front-4',
+    imgUrl: '/bootstrap.png',
+    title: 'bootstrap',
+  },
+  {
+    id: 'Front-4',
+    imgUrl: '/react.webp',
+    title: 'react',
   },
 ];
 
@@ -17,23 +59,10 @@ export const exploreWorlds = [
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    title: 'The Hogwarts',
+    link: 'https://mail.google.com/mail/u/0/#inbox'
   },
-  {
-    id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
-  },
-  {
-    id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
-  },
-  {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
-  },
+  
 ];
 
 export const startingFeatures = [

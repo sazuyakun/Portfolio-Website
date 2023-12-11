@@ -1,58 +1,57 @@
-'use client';
+"use client";
 
-import {motion} from 'framer-motion'
-import styles from '../styles'
-import { staggerContainer, fadeIn } from '../utils/motion';
-import { TitleText, TypingText } from '../components';
-import {techStack} from '../constants'
+import { motion } from "framer-motion";
+import styles from "../styles";
+import { staggerContainer, fadeIn } from "../utils/motion";
+import { TitleText, TypingText } from "../components";
+import { Languages, WebDev } from "../constants";
 
 const Skills = () => (
-  <section id="skills"className={`${styles.paddings} relative z-10`}>
+  <section id="skills" className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: 'false', amount: 0.25 }}
+      viewport={{ once: "false", amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-    <TypingText title="| People on the world" 
-      textStyles="text-center"
-    />
-    <TitleText
-      title = {(
-        <>
-          Track friends around you.
-        </>
-      )}
-      textStyles="text-center"
-    />
+      <TypingText title="| Skill-Set" textStyles="text-center" />
+      <TitleText
+        title={<>My Tech Expertise</>}
+        textStyles="text-center"
+      />
       <motion.div
-        variants={fadeIn('up', 'tween', 0.3, 1)}
-        className='relative mt-[68px] flex justify-center w-full h-[550px]'
+        variants={fadeIn("up", "tween", 0.3, 1)}
+        className="relative mt-[68px] flex justify-center w-full h-[550px]"
       >
-        <img 
-          src="/map.png"
-          alt="map"
-          className='w-full h-full object-cover'
-        />
-        <div className='absolute flex flex-col w-full'>
-        <TypingText title="Front-end" 
-      textStyles="text-center"
-    />
-        <div className='flex justify-evenly'>
-        <div className=' top-[0px] left-[0px] w-[70px] h-[70px] p-[6px] rounded-full bg-[#72757d]/20 hover:bg-white hover:scale-125 transition duration-500'>
-          <img 
-            src='people-01.png' alt='skill'
-            className=' w-full h-full rounded-full'
-          />
-        </div>
-        <div className=' top-[0px] left-[0px] w-[70px] h-[70px] p-[6px] rounded-full bg-[#72757d]/20 hover:bg-white hover:scale-125 transition duration-500'>
-          <img 
-            src='people-02.png' alt='skill'
-            className=' w-full h-full rounded-full'
-          />
-        </div>
-        </div>
+        <img src="/techBack.png" alt="map" className="w-full h-full object-cover blur-2xl rounded-full md:w-[50%] opacity-50 rotate-180" />
+        <div className="absolute flex flex-col w-full gap-3">
+          <TypingText title="Languages and Tech" textStyles="text-center" />
+          <div className="flex justify-evenly">
+            {Languages.map((skill) => (
+              <div className=" w-[70px] h-[70px] p-[6px] rounded-full bg-[#72757d]/50 hover:bg-white hover:scale-125 transition duration-500">
+                <img
+                  id={skill.id}
+                  src={skill.imgUrl}
+                  alt={skill.title}
+                  className=" w-full h-full rounded-full"
+                />
+              </div>
+            ))}
+          </div>
+          <TypingText title="Web Development" textStyles="text-center" />
+          <div className="flex justify-evenly">
+            {WebDev.map((skill) => (
+              <div className=" w-[70px] h-[70px] p-[6px] rounded-full bg-[#72757d]/50 hover:bg-white hover:scale-125 transition duration-500">
+                <img
+                  id={skill.id}
+                  src={skill.imgUrl}
+                  alt={skill.title}
+                  className=" w-full h-full rounded-full"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </motion.div>
     </motion.div>

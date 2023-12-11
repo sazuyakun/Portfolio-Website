@@ -33,8 +33,8 @@ const Hero = () => (
           <a href="#explore"
           className="w-[50%] sm:h-[500px] h-[350px] rounded-tl-[140px] rounded-bl-[140px] relative"><div className="w-full sm:h-[500px] h-[350px] rounded-tl-[140px] rounded-bl-[140px] relative">
             <img
-              src="/cover.png"
-              alt="cover"
+              src="/projects.jpeg"
+              alt="projects"
               className=" w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] rounded-bl-[140px] z-[0] absolute"
             />
             <div className=" flex justify-center items-center w-full sm:h-[500px]  h-[350px] rounded-tl-[140px] rounded-bl-[140px] hover:bg-white/10 transition duration-500 z-[1] absolute opacity-0 hover:opacity-100 sm:text-6xl text-4xl text-white">PROJECTS</div>
@@ -42,8 +42,8 @@ const Hero = () => (
           <a href="#skills"
           className="w-[50%] sm:h-[500px] h-[350px] rounded-tl-[140px] rounded-bl-[140px] relative"><div className=" w-full sm:h-[500px] h-[350px] object-cover z-10 relative ">
             <img
-              src="/cover.png"
-              alt="cover"
+              src="/tech.jpeg"
+              alt="tech"
               className="w-full sm:h-[500px] h-[350px] object-cover z-[0] absolute "
             />
             <div className=" flex justify-center items-center w-full sm:h-[500px]  h-[350px] hover:bg-black/50 transition duration-500 z-[2] absolute opacity-0 hover:opacity-100 sm:text-6xl text-4xl text-white">TECH</div>
