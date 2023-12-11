@@ -39,18 +39,18 @@ const Skills = () => (
       textStyles="text-center"
     />
         <div className='flex justify-evenly'>
-        <div className=' top-[0px] left-[0px] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
+        <div className=' top-[0px] left-[0px] w-[70px] h-[70px] p-[6px] rounded-full bg-[#72757d]/20 hover:bg-white hover:scale-125 transition duration-500'>
           <img 
             src='people-01.png' alt='skill'
             className=' w-full h-full'
           />
         </div>
-        <div className=' top-[0px] left-[100px] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
+        <div className=' top-[0px] left-[0px] w-[70px] h-[70px] p-[6px] rounded-full bg-[#72757d]/20 hover:bg-white hover:scale-125 transition duration-500'>
           <img 
             src='people-02.png' alt='skill'
             className=' w-full h-full'
           />
-          </div>
+        </div>
         </div>
         </div>
       </motion.div>
