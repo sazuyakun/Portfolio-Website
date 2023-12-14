@@ -69,6 +69,13 @@ export const exploreWorlds = [
     link: 'https://mail.google.com/mail/u/0/#inbox'
   },
   
+  {
+    id: 'world-4',
+    imgUrl: '/planet-04.png',
+    title: 'Project - 4',
+    link: 'https://mail.google.com/mail/u/0/#inbox'
+  },
+  
 ];
 
 export const startingFeatures = [

@@ -27,9 +27,9 @@ const Skills = () => (
         <img src="/techBack.png" alt="map" className="w-full h-full object-cover blur-2xl rounded-full md:w-[50%] opacity-50 rotate-180" />
         <div className="absolute flex flex-col w-full gap-3">
           <TypingText title="Languages and Tech" textStyles="text-center" />
-          <div className="flex justify-evenly">
+          <div className="flex justify-center gap-8">
             {Languages.map((skill) => (
-              <div className=" w-[70px] h-[70px] p-[6px] rounded-full bg-[#72757d]/50 hover:bg-white hover:scale-125 transition duration-500">
+              <div className=" w-[85px] h-[85px] p-[6px] rounded-full bg-[#72757d]/50 hover:bg-white hover:scale-125 transition duration-500">
                 <img
                   id={skill.id}
                   src={skill.imgUrl}
@@ -40,9 +40,9 @@ const Skills = () => (
             ))}
           </div>
           <TypingText title="Web Development" textStyles="text-center" />
-          <div className="flex justify-evenly">
+          <div className="flex justify-center gap-8">
             {WebDev.map((skill) => (
-              <div className=" w-[70px] h-[70px] p-[6px] rounded-full bg-[#72757d]/50 hover:bg-white hover:scale-125 transition duration-500">
+              <div className=" w-[85px] h-[85px] p-[6px] rounded-full bg-[#72757d]/50 hover:bg-white hover:scale-125 transition duration-500">
                 <img
                   id={skill.id}
                   src={skill.imgUrl}
