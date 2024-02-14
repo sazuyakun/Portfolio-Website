@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import styles from "../styles";
 import { staggerContainer, fadeIn } from "../utils/motion";
 import { TitleText, TypingText } from "../components";
-import { Languages, WebDev } from "../constants";
+import { Languages, Frontend, Backend } from "../constants";
 
 const Skills = () => (
   <section id="skills" className={`${styles.paddings} relative z-10`}>
@@ -39,9 +39,22 @@ const Skills = () => (
               </div>
             ))}
           </div>
-          <TypingText title="Web Development" textStyles="text-center" />
+          <TypingText title="Frontend Development" textStyles="text-center" />
           <div className="flex justify-center gap-8">
-            {WebDev.map((skill) => (
+            {Frontend.map((skill) => (
+              <div className=" w-[85px] h-[85px] p-[6px] rounded-full bg-[#72757d]/50 hover:bg-white hover:scale-125 transition duration-500">
+                <img
+                  id={skill.id}
+                  src={skill.imgUrl}
+                  alt={skill.title}
+                  className=" w-full h-full rounded-full"
+                />
+              </div>
+            ))}
+          </div>
+          <TypingText title="Backend Development" textStyles="text-center" />
+          <div className="flex justify-center gap-8">
+            {Backend.map((skill) => (
               <div className=" w-[85px] h-[85px] p-[6px] rounded-full bg-[#72757d]/50 hover:bg-white hover:scale-125 transition duration-500">
                 <img
                   id={skill.id}

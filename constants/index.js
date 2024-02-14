@@ -21,7 +21,8 @@ export const Languages = [
   },
 ];
 
-export const WebDev = [
+
+export const Frontend = [
   {
     id: 'Front-1',
     imgUrl: '/html.png',
@@ -49,6 +50,23 @@ export const WebDev = [
   },
 ];
 
+export const Backend = [
+  {
+    id: 'Back-1',
+    imgUrl: '/mongo.png',
+    title: 'MongoDB',
+  },
+  {
+    id: 'Back-2',
+    imgUrl: '/express.png',
+    title: 'Express JS',
+  },
+  {
+    id: 'Back-3',
+    imgUrl: '/node.jpg',
+    title: 'Node JS',
+  },
+];
 export const exploreWorlds = [
   {
     id: 'world-1',
@@ -75,7 +93,6 @@ export const exploreWorlds = [
     title: 'Project - 4',
     link: 'https://mail.google.com/mail/u/0/#inbox'
   },
-  
 ];
 
 export const startingFeatures = [
